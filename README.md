@@ -1,0 +1,1 @@
+This dataset is designed to track data placed in a SharePoint by Sarah Oaks, VISN19 Deputy Community Care Manager, reflecting Denver’s RFAS numbers for tracking purposes. RFAS (Request for additional services) is a form filled out by the community care staff that request additional services on a current consult. 
