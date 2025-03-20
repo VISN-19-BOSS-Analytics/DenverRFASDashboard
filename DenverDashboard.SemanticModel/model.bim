@@ -1,0 +1,2460 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.137.751.0 (24.10)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"New_Data\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "measures_table": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MeasuresTable"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measures table": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "measure table": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "MeasuresTable": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "measure tabletop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "measure bench": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure board": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure counter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure stand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure slab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure desk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure stall": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure table top": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure spreadsheet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "measures_table.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MeasuresTable",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "new_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "new data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "New_Data": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "data": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "new information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "new fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "new info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "new statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "new document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "new figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "new_data.MD__3_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "MD > 3 days"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MD > 3 day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "new_data.admin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Admin"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "admin": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "supervision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "paperwork": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "management": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "running": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "government": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "new_data.admin__3_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Admin > 3 days"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "admin > 3 day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "new_data.comment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Comment "
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "comment": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "clarification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "commentary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "feedback": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "observation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "note": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "new_data.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "new_data.md": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "MD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "md": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "new_data.nurse": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Nurse"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nurse": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "new_data.nurse_3Day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Nurse >3Days"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nurse >3Day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "new_data.oldest_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Oldest Date "
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "oldest date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "oldest moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "oldest period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "new_data.total_3_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Total >3 Days"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total >3 day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate >3 day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "overall >3 day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "new_data.total_number": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "Total Numbers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total number": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total no": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "aggregate number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "new_data.v__3Days3Day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "%>3Days"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%>3Day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage >3day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct >3day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "new_data.v__3_Nurse3_nurse": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "%>3 Nurse"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%>3 nurse": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage >3 nurse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct >3 nurse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "new_data.v___3_Admin3_admin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "% >3 Admin"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% >3 admin": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage >3 admin": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct >3 admin": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "% >3 direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "% >3 supervision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "% >3 organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "% >3 paperwork": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "% >3 management": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "% >3 running": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "% >3 government": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  }
+                ]
+              },
+              "new_data.v___3_MD3_md": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "New_Data",
+                    "ConceptualProperty": "% >3 MD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% >3 md": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage >3 md": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct >3 md": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "measures_table_has_MD_backlog": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.MD_backlog"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_MD_backlog",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.MD_backlog": {
+                    "Target": {
+                      "Entity": "measures_table.MD_backlog"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_OfBacklogAdmin": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.OfBacklogAdmin"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_OfBacklogAdmin",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.OfBacklogAdmin": {
+                    "Target": {
+                      "Entity": "measures_table.OfBacklogAdmin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_OfBacklogMD": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.OfBacklogMD"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_OfBacklogMD",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.OfBacklogMD": {
+                    "Target": {
+                      "Entity": "measures_table.OfBacklogMD"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_OfBacklogNurse": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.OfBacklogNurse"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_OfBacklogNurse",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.OfBacklogNurse": {
+                    "Target": {
+                      "Entity": "measures_table.OfBacklogNurse"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_OfBacklogTotal": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.OfBacklogTotal"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_OfBacklogTotal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.OfBacklogTotal": {
+                    "Target": {
+                      "Entity": "measures_table.OfBacklogTotal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_admin": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.admin"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_admin",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.admin": {
+                    "Target": {
+                      "Entity": "measures_table.admin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_admin_backlog": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.admin_backlog"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_admin_backlog",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.admin_backlog": {
+                    "Target": {
+                      "Entity": "measures_table.admin_backlog"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_md": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.md"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_md",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.md": {
+                    "Target": {
+                      "Entity": "measures_table.md"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_nurse": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.nurse"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_nurse",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.nurse": {
+                    "Target": {
+                      "Entity": "measures_table.nurse"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_nurse_backlog": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.nurse_backlog"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_nurse_backlog",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.nurse_backlog": {
+                    "Target": {
+                      "Entity": "measures_table.nurse_backlog"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_todays_numbers": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.todays_numbers"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_todays_numbers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.todays_numbers": {
+                    "Target": {
+                      "Entity": "measures_table.todays_numbers"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_total": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.total"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_total",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.total": {
+                    "Target": {
+                      "Entity": "measures_table.total"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measures_table_has_total_backlog": {
+                "Binding": {
+                  "ConceptualEntity": "MeasuresTable"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measures_table.total_backlog"
+                      },
+                      "Subject": {
+                        "Role": "measures_table"
+                      }
+                    },
+                    "ID": "measures_tables_have_total_backlog",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measures_table": {
+                    "Target": {
+                      "Entity": "measures_table"
+                    }
+                  },
+                  "measures_table.total_backlog": {
+                    "Target": {
+                      "Entity": "measures_table.total_backlog"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_MD__3_day": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.MD__3_day"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_MD__3_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.MD__3_day": {
+                    "Target": {
+                      "Entity": "new_data.MD__3_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_admin": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.admin"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_admins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.admin": {
+                    "Target": {
+                      "Entity": "new_data.admin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_admin__3_day": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.admin__3_day"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_admin__3_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.admin__3_day": {
+                    "Target": {
+                      "Entity": "new_data.admin__3_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_comment": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.comment"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_comments",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.comment": {
+                    "Target": {
+                      "Entity": "new_data.comment"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.date"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.date": {
+                    "Target": {
+                      "Entity": "new_data.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_md": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.md"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_md",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.md": {
+                    "Target": {
+                      "Entity": "new_data.md"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_nurse": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.nurse"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_nurses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.nurse": {
+                    "Target": {
+                      "Entity": "new_data.nurse"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_nurse_3Day": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.nurse_3Day"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_nurse_3Days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.nurse_3Day": {
+                    "Target": {
+                      "Entity": "new_data.nurse_3Day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_oldest_date": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.oldest_date"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_oldest_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.oldest_date": {
+                    "Target": {
+                      "Entity": "new_data.oldest_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_total_3_day": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.total_3_day"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_total_3_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.total_3_day": {
+                    "Target": {
+                      "Entity": "new_data.total_3_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_total_number": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.total_number"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_total_numbers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.total_number": {
+                    "Target": {
+                      "Entity": "new_data.total_number"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_v__3Days3Day": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.v__3Days3Day"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_3Days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.v__3Days3Day": {
+                    "Target": {
+                      "Entity": "new_data.v__3Days3Day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_v__3_Nurse3_nurse": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.v__3_Nurse3_nurse"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have_3_nurses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.v__3_Nurse3_nurse": {
+                    "Target": {
+                      "Entity": "new_data.v__3_Nurse3_nurse"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_v___3_Admin3_admin": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.v___3_Admin3_admin"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have__3_admins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.v___3_Admin3_admin": {
+                    "Target": {
+                      "Entity": "new_data.v___3_Admin3_admin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "new_data_has_v___3_MD3_md": {
+                "Binding": {
+                  "ConceptualEntity": "New_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "new_data.v___3_MD3_md"
+                      },
+                      "Subject": {
+                        "Role": "new_data"
+                      }
+                    },
+                    "ID": "new_data_have__3_md",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "new_data": {
+                    "Target": {
+                      "Entity": "new_data"
+                    }
+                  },
+                  "new_data.v___3_MD3_md": {
+                    "Target": {
+                      "Entity": "new_data.v___3_MD3_md"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "MeasuresTable",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "5b53602045b3488ab3a2d90557f45bf3"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "08cbecd2-fe43-4b89-9447-f2428a09d1d1",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "016f70e8-5fd2-46da-ab89-c4e0c1e09053",
+        "measures": [
+          {
+            "name": "MDTotal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[MD])",
+            "lineageTag": "8a20c45b-7774-4fa9-911d-820277a91d53"
+          },
+          {
+            "name": "NurseTotal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Nurse])",
+            "lineageTag": "267985c0-e691-4fa6-b304-10f8c1d431cc"
+          },
+          {
+            "name": "AdminBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Admin > 3 days])",
+            "lineageTag": "aa44a205-9d7a-48a2-880c-48025572aa29"
+          },
+          {
+            "name": "MDBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[MD > 3 days])",
+            "lineageTag": "d1af0be4-d75b-46be-9414-57c412e3dedb"
+          },
+          {
+            "name": "NurseBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Nurse >3Days])",
+            "lineageTag": "741b7b08-9026-4bd4-ae79-42fa3262530a"
+          },
+          {
+            "name": "TotalBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Total >3 Days])",
+            "lineageTag": "1d73b596-53e4-41ca-abaa-539ee883f01c"
+          },
+          {
+            "name": "AdminPercentageBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[% >3 Admin])",
+            "lineageTag": "85bafddf-e9c8-4255-bffb-995c01be5624"
+          },
+          {
+            "name": "AdminTotal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Admin])",
+            "lineageTag": "e75f1aa0-7de2-43cf-9313-122e1465447f"
+          },
+          {
+            "name": "MDPercentageBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[% >3 MD])",
+            "lineageTag": "d5d57ae5-8349-47b3-9f26-4d67c0abd22c"
+          },
+          {
+            "name": "NursePercentageBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[%>3 Nurse])",
+            "lineageTag": "e493a60a-c799-42e2-ae7c-74f7c14e78dd"
+          },
+          {
+            "name": "Todays_Count",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE([Total], New_Data[Date] = MAX(New_Data[Date]))",
+            "lineageTag": "a85e5004-6b14-4ef4-8339-41eeff7ce01c"
+          },
+          {
+            "name": "Total",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[Total Numbers])",
+            "lineageTag": "a740e274-6e55-4108-add9-3459efabf5cc"
+          },
+          {
+            "name": "TotalPercentageBacklog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(New_Data[%>3Days])",
+            "lineageTag": "b03440c9-46de-4db8-816d-1ed0a9d45927"
+          },
+          {
+            "name": "Todays_Percentage",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE([TotalPercentageBacklog], New_Data[Date] = MAX(New_Data[Date]))",
+            "lineageTag": "b9c96080-ae69-4c0d-892f-90c367138ba0"
+          },
+          {
+            "name": "Todays_Backlog",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE([TotalBacklog], New_Data[Date] = MAX(New_Data[Date]))",
+            "lineageTag": "7ad3ed87-29ac-4175-a98b-286ed49a16ec"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MeasuresTable",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "New_Data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "f94c6fe3-3db9-4c89-9705-43227b6c2dbe",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nurse >3Days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "bc817ba2-cfa2-45ec-9236-f242d77cc3a2",
+            "sourceColumn": "Nurse >3Days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nurse",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d36a9d9c-81d0-4ea8-99a7-d65f393c3786",
+            "sourceColumn": "Nurse",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "%>3 Nurse",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b352ae7a-1f76-4a39-af47-0298741cc0df",
+            "sourceColumn": "%>3 Nurse",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MD > 3 days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "68f55ed0-0c2b-47d4-910a-8c32d8af00bf",
+            "sourceColumn": "MD > 3 days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c0054df8-6df9-4b1b-ad83-28188b6471ef",
+            "sourceColumn": "MD",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "% >3 MD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2dacf040-2328-40ba-b0e7-3468ab84e282",
+            "sourceColumn": "% >3 MD",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Admin > 3 days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "16867f40-66aa-4970-b5ca-98336416446d",
+            "sourceColumn": "Admin > 3 days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Admin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "57d34117-65e0-4bc4-b00e-28ca702f14d8",
+            "sourceColumn": "Admin",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "% >3 Admin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ec0d7319-1ef4-4f7f-874a-5390b943127a",
+            "sourceColumn": "% >3 Admin",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total >3 Days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d2fe8018-8b5c-4a14-a367-5005eea7fa67",
+            "sourceColumn": "Total >3 Days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total Numbers",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "81fd72d5-80dd-4ee3-8102-1fab6bcbe9a4",
+            "sourceColumn": "Total Numbers",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "%>3Days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9c003913-081d-49bf-a104-fd61e862dbcc",
+            "sourceColumn": "%>3Days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Oldest Date ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "c13f6330-50c2-4258-8ad0-dd0bf1f7a36c",
+            "sourceColumn": "Oldest Date ",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Comment ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "af58b03b-ff00-4eda-9ade-93869ea55982",
+            "sourceColumn": "Comment ",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "aacb3ca0-b545-40d0-aed2-7df9c9d647e2",
+        "partitions": [
+          {
+            "name": "New_Data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SharePoint.Files(\"https://dvagov.sharepoint.com/sites/V19BOSSLeadership-WeeklyOversightReviewNumbers/\", [ApiVersion = 15]),",
+                "    #\"Denver Daily RFS Numbers xlsx_https://dvagov sharepoint com/sites/V19BOSSLeadership-WeeklyOversightReviewNumbers/Shared Documents/Weekly V19 Oversight Review Meeting Numbers/Denver Daily RFS/\" = Source{[Name=\"Denver Daily RFS Numbers.xlsx\",#\"Folder Path\"=\"https://dvagov.sharepoint.com/sites/V19BOSSLeadership-WeeklyOversightReviewNumbers/Shared Documents/Weekly V19 Oversight Review Meeting Numbers/Denver Daily RFS/\"]}[Content],",
+                "    #\"Imported Excel Workbook\" = Excel.Workbook(#\"Denver Daily RFS Numbers xlsx_https://dvagov sharepoint com/sites/V19BOSSLeadership-WeeklyOversightReviewNumbers/Shared Documents/Weekly V19 Oversight Review Meeting Numbers/Denver Daily RFS/\"),",
+                "    Table1_Table = #\"Imported Excel Workbook\"{[Item=\"Table1\",Kind=\"Table\"]}[Data],",
+                "    #\"Removed Errors\" = Table.RemoveRowsWithErrors(Table1_Table, {\"%>3 Nurse\"}),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Removed Errors\",{{\"Date\", Order.Descending}})",
+                "in",
+                "    #\"Sorted Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
